@@ -11,14 +11,14 @@ plugin_package = "octoprint_%s" % plugin_identifier
 
 # The plugin's human readable name. Can be overwritten within OctoPrint's internal data via __plugin_name__ in the
 # plugin module
-plugin_name = "OctoPrint-BigTreeTech TFT Display"
+plugin_name = "BigTreeTech TFT Display Communicator"
 
 # The plugin's version. Can be overwritten within OctoPrint's internal data via __plugin_version__ in the plugin module
 plugin_version = "0.1"
 
 # The plugin's description. Can be overwritten within OctoPrint's internal data via __plugin_description__ in the plugin
 # module
-plugin_description = "TODO"
+plugin_description = "This plugin handles the host commands to set BTT-TFT Screens into remote printing mode and handle Host commands sent form the screen"
 
 # The plugin's author. Can be overwritten within OctoPrint's internal data via __plugin_author__ in the plugin module
 plugin_author = "taragor"
@@ -27,7 +27,7 @@ plugin_author = "taragor"
 plugin_author_email = "taragor83@gmail.com"
 
 # The plugin's homepage URL. Can be overwritten within OctoPrint's internal data via __plugin_url__ in the plugin module
-plugin_url = "TODO"
+plugin_url = "https://github.com/taragor/Octoprint_BTT_TFT_Plugin"
 
 # The plugin's license. Can be overwritten within OctoPrint's internal data via __plugin_license__ in the plugin module
 plugin_license = "The Unlicense"
